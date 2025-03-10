@@ -2,7 +2,7 @@
 // const app = express();
 
 
-//Basic example of get request using express.
+// //Basic example of get request using express.
 // function calculateSum(n){
 //     let ans=0;
 //     for(let i=1;i<=n;i++){
@@ -19,9 +19,9 @@
 
 
 
-//Now Make hospital game using express where you can add new kidney, update all kidneys to healthy, remove unhealthy kidneys, get all kidneys.
+// //Now Make hospital game using express where you can add new kidney, update all kidneys to healthy, remove unhealthy kidneys, get all kidneys.
 
-//In memory database
+// //In memory database
 // const users = [
 //   {
 //     name: "John",
@@ -37,7 +37,7 @@
 
 
 
-//get all kidneys
+// //get all kidneys
 // app.get("/", function (req, res) {
 //   const johnKidneys = users[0].kidneys;
 //   const numberOfKidneys = johnKidneys.length;
@@ -57,7 +57,7 @@
 
 
 
-//add new kidney
+// //add new kidney
 // app.post("/", function (req, res) {
 //   const isHealthy = req.body.isHealthy;
 //   users[0].kidneys.push({
@@ -70,7 +70,7 @@
 
 
 
-//update all kidneys to healthy
+// //update all kidneys to healthy
 // app.put("/", function (req, res) {
 //   for (let i = 0; i < users[0].kidneys.length; i++) {
 //     users[0].kidneys[i].healthy = true; //Basically we updated all unhealthy kidneys to healthy.
@@ -81,7 +81,7 @@
 // });
 
 
-//removing unhealthy kidneys
+// //removing unhealthy kidneys
 // app.delete("/", function (req, res) {
 //   if (isThereAtleastOneUnhealthyKidney()) {
 //     const newKidneys = [];
