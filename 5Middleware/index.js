@@ -1,8 +1,6 @@
 const express=require('express');
 const app=express();
 
-
-
 //We can do work without middlewares but middlewares make our work easy, so we use middlewares.It is more cleaner way to do work.
 //1.Basic Example of middleware
 // let reqCount=0;
