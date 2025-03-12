@@ -78,5 +78,42 @@ const app=express();
 
 // app.get('/', requestIncreaser,realSum);//middleware is used here.
 
+
+
+//4. Assignment Question
+//Create a middleware function that logs each incoming request’s HTTP method, URL, and timestamp to the console
+
+// function requestLogger(req,res,next){
+//     console.log("Method: ",req.method);
+//     console.log("URL: ",req.url);
+//     console.log("Timestamp: ",new Date());
+//     next();
+// }
+
+
+// app.use(requestLogger);//middleware is used here.It will apply to all routes declared after this line.
+
+// app.get('/');//middleware is used here.
+
+// app.get('/about');//middleware is used here.
+
+
+
+//Some commonly used middlewares
+// express.json() middleware: It is used to parse incoming request with JSON payloads. It is used to parse incoming request with JSON payloads.
+//Example
+
+// app.use(express.json());//middleware is used here.
+
+// app.post('/add',(req,res)=>{
+//     console.log(req.body);
+//     const a=parseInt(req.body.a);
+//     const b=parseInt(req.body.b);
+
+//     res.json({
+//         ans:a+b
+//     })
+// });
+
 app.listen(3000);
 console.log("Server is running on port 3000");
