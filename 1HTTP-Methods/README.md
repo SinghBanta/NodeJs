@@ -5,9 +5,13 @@
 3.npm install express
 ```
 ## To run the code
-1. Add the script "start": "node server.js" in package.json.
+Add the script "start": "node server.js" in package.json.
 ```
 node index.js
+```
+ OR
+```
+npm run start
 ```
 
 
