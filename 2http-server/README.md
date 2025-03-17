@@ -5,6 +5,16 @@ npm install express
 npm install
 ```
 
+## To run the code
+Add the script "start": "node server.js" in package.json.
+```
+node index.js
+```
+ OR
+```
+npm run start
+```
+
 # HTTP SERVER
 An HTTP server is software that stores, processes, and delivers web content to users. It uses the Hypertext Transfer Protocol (HTTP) to communicate with clients. 
 

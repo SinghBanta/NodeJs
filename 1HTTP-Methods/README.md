@@ -3,7 +3,15 @@
 1.npm init -y
 2.npm install
 3.npm install express
-4.node index.js
+```
+## To run the code
+Add the script "start": "node server.js" in package.json.
+```
+node index.js
+```
+ OR
+```
+npm run start
 ```
 
 
@@ -13,11 +21,11 @@ The HTTP method defines the action the client wants to make on the server, which
 Here are four HTTP methods that are commonly used in REST APIs:
 
 
-1.GET: used to retrieve resources.
+- GET: used to retrieve resources.
 
-2.POST: used to add resources.
+- POST: used to add resources.
 
-3.PUT: used to update resources.
+- PUT: used to update resources.
 
-4.DELETE: used to delete resources.
+- DELETE: used to delete resources.
 
